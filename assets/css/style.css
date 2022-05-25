@@ -30,11 +30,12 @@ header img {
 
 }
 /*=========  SEÇÃO PRINCIPAL  ================================*/
-
-
 /*===  Banner  =====*/
 .banner img {
   width: 100%;
+}
+.secaoProdutos {
+
 }
 
 /*=========  SEÇÃO DE PEDIDOS  ================================*/
@@ -47,24 +48,19 @@ header img {
 .cardsPedidos li {
   width: 23.3rem;
   height: 37.3rem;
+  padding: 2.2rem 2.8rem;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
 
   background: #FFFFFF;
   border: 2px solid var(--headline-color);
   border-radius: 15px;
 }
 
-.cardsPedidos li img {
-  margin: 2.2rem 4.1rem 2.8rem;
-}
-
 .cardsPedidos li p {
-  margin: 0 4rem 2.8rem;
+  margin: 2.8rem 0;
   color: var(--parag-color);
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: 'Nunito Sans', sans-serif;
 
   text-align: center;
@@ -74,22 +70,20 @@ header img {
   color: black;
   font-weight: 700;
   font-size: 1.6rem;
-
+  margin-bottom: 2.8rem;
 }
 
-button {
+.cardsPedidos li button {
   border: none;
-  border-radius: 2rem;
-  
-  margin-bottom: 6rem; 
+  border-radius: .8rem;
+  background-color: var(--headline-color);
+
+  margin-bottom: 4rem; 
   height: 4.1rem;
   width: 17.7rem;
+
   font-size: 1.8rem;
   font-weight: 500;
+  cursor: pointer;
   
-}
-
-button i img {
-  width: 2.5rem;
-  height: 2.5rem;
 }
