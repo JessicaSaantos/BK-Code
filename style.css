@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%; /* 1rem = 10px */
+  --primary-color: hsl(170, 100%, 26%);
+  --headline-color: hsl(210, 11% , 15%);
+  --parag-color: hsl(210, 9%, 31%);
+  
+}
+
+body{
+  text-align: center;
+  font-family: Arial;
+  font-size: 1.6rem;
+}
+header {
+  width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4.1rem;
+}
+h1{
+  font-size: 3.4rem;
+  color: var(--headline-color);
+  margin-bottom: 2.4rem;
+}
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+p{
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--parag-color);
+}
+
+button {
+  border: none;
+  border-radius: 4rem;
+  
+  margin-bottom: 6rem; 
+  height: 6.2rem;
+  width: 26.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  
+  background: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button i img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
