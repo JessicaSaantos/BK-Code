@@ -67,6 +67,7 @@ header img {
 
   text-align: center;
 
+  min-height: 4rem;
   max-width: 16rem;
   margin: 2.8rem auto;
 }
