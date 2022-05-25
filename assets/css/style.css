@@ -35,7 +35,7 @@ header img {
   width: 100%;
 }
 .secaoProdutos {
-
+  padding-top: 7.4rem;
 }
 
 /*=========  SEÇÃO DE PEDIDOS  ================================*/
@@ -43,6 +43,7 @@ header img {
 .cardsPedidos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .cardsPedidos li {
@@ -55,16 +56,19 @@ header img {
   background: #FFFFFF;
   border: 2px solid var(--headline-color);
   border-radius: 15px;
+
+  margin-bottom: 1.5rem;
 }
 
 .cardsPedidos li p {
-  margin: 2.8rem 0;
   color: var(--parag-color);
   font-size: 2rem;
   font-family: 'Nunito Sans', sans-serif;
 
   text-align: center;
 
+  max-width: 16rem;
+  margin: 2.8rem auto;
 }
 .cardsPedidos li p:nth-last-child(2) {
   color: black;
@@ -77,8 +81,7 @@ header img {
   border: none;
   border-radius: .8rem;
   background-color: var(--headline-color);
-
-  margin-bottom: 4rem; 
+ 
   height: 4.1rem;
   width: 17.7rem;
 
