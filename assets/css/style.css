@@ -1,54 +1,92 @@
+/*=========     VARIABLES  ================================*/
 
 :root{
   font-size: 62.5%; /* 1rem = 10px */
-  --primary-color: hsl(170, 100%, 26%);
-  --headline-color: hsl(210, 11% , 15%);
-  --parag-color: hsl(210, 9%, 31%);
-  
+  --base-color: hsl(36, 20%, 95%)
+  --primary-color: hsl(25, 100%, 60%);
+  --headline-color: hsl(36, 69%, 85%);
+  --parag-color: hsl(15, 60%, 20%);
+  font-family: Arial, Helvetica, sans-serif;
 }
+/*=========     BASE ================================*/
 
 body{
+  background-color: var(--base-color);
 }
-header {
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3rem;
 }
-h1{
-  font-size: 3.4rem;
-  color: var(--headline-color);
-  margin-bottom: 2.4rem;
+
+/*=========     CABEÇALHO  ================================*/
+
+header .container{
+  display: flex;
+  justify-content: space-between;
 }
-h4 {
-  font-size: 1.4rem;
-  color: var(--primary-color);
-  margin-bottom: 1.6rem;
+header img {
+
 }
-p{
-  font-size: 1.8rem;
-  line-height: 150%;
-  font-weight: 400;
+/*=========  SEÇÃO PRINCIPAL  ================================*/
+
+
+/*===  Banner  =====*/
+.banner img {
+  width: 100%;
+}
+
+/*=========  SEÇÃO DE PEDIDOS  ================================*/
+
+.cardsPedidos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardsPedidos li {
+  width: 23.3rem;
+  height: 37.3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #FFFFFF;
+  border: 2px solid var(--headline-color);
+  border-radius: 15px;
+}
+
+.cardsPedidos li img {
+  margin: 2.2rem 4.1rem 2.8rem;
+}
+
+.cardsPedidos li p {
+  margin: 0 4rem 2.8rem;
   color: var(--parag-color);
+  font-size: 1.8rem;
+  font-family: 'Nunito Sans', sans-serif;
+
+  text-align: center;
+
+}
+.cardsPedidos li p:nth-last-child(2) {
+  color: black;
+  font-weight: 700;
+  font-size: 1.6rem;
+
 }
 
 button {
   border: none;
-  border-radius: 4rem;
+  border-radius: 2rem;
   
   margin-bottom: 6rem; 
-  height: 6.2rem;
-  width: 26.3rem;
-  font-size: 1.4rem;
-  font-weight: 700;
+  height: 4.1rem;
+  width: 17.7rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   
-  background: var(--primary-color);
-  color: white;
-  text-transform: uppercase;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-  
-  margin-right: auto;
-  margin-left: auto;
 }
 
 button i img {
