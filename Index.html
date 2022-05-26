@@ -197,7 +197,7 @@
         
             <img src="./assets/img/Shake-Especial.png" alt="Shake de Leite Moça com Paçoca">
         
-            <p>Shake de Leite Moça com Paçoca</p>
+            <p>Shake de Leite Moça e Paçoca</p>
             <p>R$ 16.90</p>
         
             <button type="button">
@@ -254,50 +254,55 @@
     
   </main>
 
-  <footer>
-
-    <section class="carrinho">
+  <footer class="carrinho">
       
-      <header class="infoResumo"> 
+    <header class="infoCabecalho"> 
 
-        <div classe="infoUsuario">
+      <div class="container">
+
+        <div class="infoUsuario">
           <h3>Olá Kenzie | Minha sacola</h3>
           <p>Retirar o pedido no balcão</p>
         </div>
 
         <p class="infoPreco">Total: R$32.90</p>
+      </div>
 
-      </header>
+    </header>
       
-      <div class="resumoPedido">
+    <div class="resumoFinal container">
 
+      <div class="resumoPedido">
         <ul class="listaProdutos">
           <li>
-            <div>
+            <div class="infoLadoEsquerdo">
               <img src="./assets/img/combo_whopper.png" alt="Combo Whopper">
               <p>Combo Whopper</p>
             </div>
-        
-            <div>
-             <span>Preço: R$32.90</span>
-             <img src="./assets/img/lixo.png" alt="icon lixo">
+      
+            <div class="infoLadoDireito">
+              <span>R$32.90</span>
+              <button>
+                <img src="./assets/img/lixo.png" alt="icon lixo">
+              </button>
             </div>
       
           </li>
         </ul>
-         
+      
       </div>
 
       <div class="btnPedido">
-         <button type="button">Finalizar Pedido
-         </button>
-       
-         <button type="button">
-          Cancelar 
-         </button>
+        <button type="button">Finalizar Pedido
+        </button>
+    
+        <button type="button">
+        Cancelar
+        </button>
       </div>
+    </div>
       
-    </section>
+    
    
   </footer>
 
