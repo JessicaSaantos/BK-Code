@@ -96,9 +96,25 @@ header img {
 footer {
 }
 .carrinho {}
-.carrinho .infoResumo {}
+.carrinho .infoResumo {
+ background: var(--parag-color); 
+ border-radius: 32px 32px 0 0;
+ padding: 2.3rem 0;
+}
 .carrinho .infoUsuario {}
-.carrinho .infoUsuario h3{}
-.carrinho .infoUsuario p{}
+.carrinho .infoUsuario h3{
+ font-weight: 500;
+ font-size: 3.2rem;
+ color: var(--base-color);
+ margin-bottom: 1.8rem;
+}
+.carrinho .infoUsuario p{
+ font-style: italic;
+ font-weight: 200;
+ font-size: 2.2rem;
+ line-height: 3rem;
+ color: var(--base-color);
+}
+.carrinho .infoResumo .infoPreco {}
 
-/*aula 2h33min*/
+/*aula 2h48min*/
