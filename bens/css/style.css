@@ -91,5 +91,14 @@ header img {
   cursor: pointer;
   
 }
+/*=========  FOOTER ================================*/
+
+footer {
+}
+.carrinho {}
+.carrinho .infoResumo {}
+.carrinho .infoUsuario {}
+.carrinho .infoUsuario h3{}
+.carrinho .infoUsuario p{}
 
 /*aula 2h33min*/
