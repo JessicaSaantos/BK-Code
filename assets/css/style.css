@@ -121,7 +121,7 @@ header .container{
   justify-content: space-between;
 }
 .resumoFinal .resumoPedido {
-  width: 80%;
+  width: 75%;
 }
 
 /*===  Lista =====*/
@@ -183,9 +183,11 @@ header .container{
 
 /*===  Botões  =====*/
 .btnPedido{
-  width: 20%;
-  margin-top: 1.2rem;
-  text-align: center;
+  width: 25%;
+  margin-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .btnPedido button {
   width: 16rem;
