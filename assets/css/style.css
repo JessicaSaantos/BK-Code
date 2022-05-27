@@ -26,7 +26,12 @@ header .container{
 
 
 /*=========  SEÇÃO INICIAL ================================*/
-
+main , footer, .secao {
+  display: none;
+}
+.mostrar {
+  display: block;
+}
 .secao {
   border-top: 1px solid #DB3B1D;
 }
@@ -62,8 +67,11 @@ header .container{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
-
+.escolhaRetirada:hover , .escolhaLevar:hover {
+  background-color: #d92b0c3c;
+}
 .escolhaRetirada p , .escolhaLevar p{
   font-size: 30px;
   color: #db3b1d;
