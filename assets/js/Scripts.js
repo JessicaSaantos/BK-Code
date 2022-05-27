@@ -1,4 +1,4 @@
-/* Iniciando a seção de pedido depois da seção de seleção */
+/* ===================== Iniciando a seção de pedido depois da seção de seleção ==============*/
 const btnRetirar = document.querySelector('.escolhaRetirada')
 const btnLevar = document.querySelector('.escolhaLevar')
 
@@ -16,19 +16,22 @@ function iniciarPedido(){
 
 }
 
-/* Capturando o nome e imprimindo na tela */
+/* =================== Capturando o nome e imprimindo na tela ======================*/
 
 let nomeUsuario = (window.prompt ('Queremos te oferecer o melhor, bora iniciar seu pedido?' , 'Diga seu nome'))
 const nome = document.querySelector('#nome')
+const sacolaNome = document.querySelector('#sacolaNome')
 
 if (nomeUsuario === null || nomeUsuario.length == 0 || nomeUsuario == 'Diga seu nome') {
     nome.innerHTML = `Bem vindxs!`
+    sacolaNome.innerHTML = `Olá Cliente | Minha sacola`
 }
 else {
     nome.innerHTML = `Bem vindxs ${nomeUsuario}!!`
+    sacolaNome.innerHTML = `Olá  ${nomeUsuario} | Minha sacola`
 }
 
-/* Criando template do card produto*/
+/*================================== Criando template do card produto======================*/
 
 const cardsVitrine = document.querySelector('.cardsPedidos')
 
@@ -62,7 +65,7 @@ function listarProdutos (listaProdutos){
 
 listarProdutos(produtos)
 
-/* Adicionando produtos no carrinho de compras*/
+/*=================== Adicionando produtos no carrinho de compras====================*/
 
 let carrinho = []
 
@@ -121,7 +124,26 @@ function listarPedidos (){
 }
 }
 
+/*=================== Atualizando Total do pedido ====================*/
+
+
 listaPedidos.addEventListener('click' , removeItem)
+
+
+function atualizarTotal() {
+    const infoPreco = document.querySelector('.infoPreco')
+     let total = 0
+     
+    for(let i = 0 ; i < carrinho.length ; i ++) {
+        const produto = carrinho[i]
+
+        total += produto.preco
+        
+    }
+    infoPreco.innerText = `Total: R$ ${total.toFixed(2)}`
+}    
+
+/*=================== Removendo item da lista ====================*/
 
 function removeItem (event) {
     const botao = event.target
@@ -129,26 +151,12 @@ function removeItem (event) {
     if (botao.tagName == "BUTTON") {
      const item = botao.closest("div li") // retorna o ancestral + próximo, em relação ao atual
      item.remove()
-     
-    
+
+
      carrinho.splice(item , 1)
-     
-     
-
+     atualizarTotal()
     }
-
-
+   
 }
 
-
-function atualizarTotal() {
-    const infoPreco = document.querySelector('.infoPreco')
-    
-    let total = 0
-    for(let i = 0 ; i < carrinho.length ; i ++) {
-        const produto = carrinho[i]
-
-        total += produto.preco
-    }
-    infoPreco.innerText = `Total: R$ ${total.toFixed(2)}`
-}
+ 
