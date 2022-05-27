@@ -190,7 +190,8 @@ main , footer, .secao {
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 2rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .listaProdutos li .infoLadoEsquerdo {
@@ -199,7 +200,8 @@ main , footer, .secao {
   align-items: center;
 }
 .listaProdutos li .infoLadoEsquerdo img {
-  width: 15rem;
+  width: 180px;
+  height: 130px;
 }
 .listaProdutos li .infoLadoEsquerdo p {
   font-weight: 700;
