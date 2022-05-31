@@ -280,5 +280,12 @@ main , footer, .secao {
 }
 }
 
+@media (max-width:640px) {
+ .resumoPedido .listaProdutos li {
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+}
+
 
 
