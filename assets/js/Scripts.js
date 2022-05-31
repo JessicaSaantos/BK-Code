@@ -173,6 +173,16 @@ function removeItemCarrinho (itemRemovido) {
         
         carrinho.splice(posItem , 1)     //permite inserir novos elementos e excluir elementos existentes em um array
 
+
+        if (carrinho.length == 0) {
+            listaPedidos.innerHTML = `
+            <li>
+            <div class="infoLadoEsquerdo">
+              <p>Adicione seu pedido aqui</p>
+            </div>
+          </li>`
+        } 
+        
         atualizarTotal()
 }
  
