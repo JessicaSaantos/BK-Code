@@ -196,4 +196,19 @@ function removeItemCarrinho (itemRemovido) {
         
         atualizarTotal()
 }
+
+/* ===================== Cancelando pedido ==========================*/
+
+function cancelar () {
+    carrinho = []
+    listaPedidos.innerHTML = `
+        <li>
+            <div class="infoLadoEsquerdo">
+                <p>Adicione seu pedido aqui</p>
+            </div>
+        </li>`
+        
+    atualizarTotal ()
+}
+
  
