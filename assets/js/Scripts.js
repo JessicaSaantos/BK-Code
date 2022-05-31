@@ -143,20 +143,36 @@ function atualizarTotal() {
     infoPreco.innerText = `Total: R$ ${total.toFixed(2)}`
 }    
 
-/*=================== Removendo item da lista ====================*/
+/*=================== Removendo item da lista VISUALMENTE ====================*/
 
 function removeItem (event) {
     const botao = event.target
 
-    if (botao.tagName == "BUTTON") {
-     const item = botao.closest("div li") // retorna o ancestral + próximo, em relação ao atual
+
+    if (botao.tagName == "BUTTON") { 
+     
+     const item = botao.closest("li") // retorna o ancestral + próximo, em relação ao atual
      item.remove()
-
-
-     carrinho.splice(item , 1)
-     atualizarTotal()
+      
+      removeItemCarrinho(item)
     }
-   
+  
 }
 
+/*=================== Removendo item da lista no ARRAY ====================*/
+
+function removeItemCarrinho (itemRemovido) {
+    const item = itemRemovido.querySelector("p").innerText
+
+      //Pesquisando se o produto é existente
+      const produtoFiltrado = produtos.find(
+        (produto) => produto.nome == item
+       )
+
+        const posItem = (carrinho.indexOf(produtoFiltrado))
+        
+        carrinho.splice(posItem , 1)     //permite inserir novos elementos e excluir elementos existentes em um array
+
+        atualizarTotal()
+}
  
