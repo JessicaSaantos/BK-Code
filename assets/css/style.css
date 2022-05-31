@@ -23,10 +23,40 @@ header .container{
   display: flex;
   justify-content: space-between;
 }
-
-
-/*=========  SEÇÃO INICIAL ================================*/
-main , footer, .secao {
+/*=========  SEÇÃO INICIAL 1º ================================*/
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #DB3B1D;
+  gap: 8rem;
+}
+.inicio img {
+  margin-top: 4.1rem;
+}
+.inicio button {
+  background-color: #DB3B1D;
+  color: white;
+  font-size: 2.5rem;
+  border-radius: 14px;
+  width: 26rem;
+  height: 6rem;
+  border: 2px solid rgba(255, 255, 255, 0.697);
+}
+.inicio button:hover {
+  cursor: pointer;
+  background-color: wheat;
+  color: #DB3B1D;
+  border: 2px solid #DB3B1D;
+}
+.footer p {
+  text-align: center;
+  font-style: Medium;
+  font-size: 2rem;
+  color: #502314;
+}
+/*=========  SEÇÃO INICIAL 2º ================================*/
+main , footer, .secao, .secaoInicio {
   display: none;
 }
 .mostrar {
@@ -119,11 +149,11 @@ main , footer, .secao {
   max-width: 16rem; 
   margin: 2.8rem auto;
 }
-.cardsPedidos li p:nth-last-child(2) {
+.cardsPedidos li p:nth-last-child(2) { /*encontrar tag filha específica*/
   color: black;
   font-weight: 700;
   font-size: 1.6rem;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1rem;
 }
 
 .cardsPedidos li button {
