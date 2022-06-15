@@ -191,7 +191,7 @@ function removeItemCarrinho (itemRemovido) {
             <div class="infoLadoEsquerdo">
               <p>Adicione seu pedido aqui</p>
             </div>
-          </li>`
+           </li>`
         } 
         
         atualizarTotal()
@@ -207,7 +207,7 @@ function cancelar () {
                 <p>Adicione seu pedido aqui</p>
             </div>
         </li>`
-        
+
     atualizarTotal ()
 }
 
