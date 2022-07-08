@@ -2,6 +2,8 @@
 ***
 
 <div align="center">
+ [![](https://img.shields.io/badge/🔗-Sobre-yellow)](#Descrição) • [![](https://img.shields.io/badge/🔗-Tecnologias%20Utilizadas-yellow)](#Tecnologias-Utilizadas) • [![](https://img.shields.io/badge/🔗-Objetivos-yellow)](#Aprendizados) • [![](https://img.shields.io/badge/🔗-O%20Projeto-yellow)](#O-Projeto) •  
+ [![](https://img.shields.io/badge/🔗-Status-yellow)](#Status-do-Projeto) • [![](https://img.shields.io/badge/🔗-Demonstração-yellow)](#Demonstração) 
 
 </div>
 
