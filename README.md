@@ -27,7 +27,7 @@ Html | Css | JavaScript
 
 ### Status do Projeto: 
 *Em Andamento* 🛠️⚙️
-Objetivo principal do projeto está finalizado. Mas outras funcionalidades poderão ser adicionadas ao PicPro.
+Objetivo principal do projeto está finalizado. Mas outras funcionalidades serão adicionadas ao BK-Code.
 
 **Possíveis funcionalidades:**
  - [x] Interface Principal
