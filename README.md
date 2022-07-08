@@ -16,7 +16,7 @@ Html | Css | JavaScript
 5 | 3 | ECMAScript 2018
 
 ### Aprendizados:
-<p> 📚 Através desse projeto foi possível exercitar o uso do conceito de Flexbox para organizar os elementos dentro de containers de forma dinâmica, também do atributo hover que permite mudanças de estilos quando o cursor do mouse passa em algum elemento da página HTML, no PicPro esse efeito acontece no menu de seleção de pagamento. </p> 
+<p> 📚 Através desse projeto foi possível exercitar o uso da linguagem JavaScript para organizar as seções e exibir cada uma de forma dinâmica, conforme a interação do usuário... </p> 
 <p>
     🔗 Esse desenvolvimento foi realizado em uma maratona de aulas da escola <a href="https://kenzie.com.br/" rel="nofollow">Kenzie Academy Brasil</a> e apresentado no canal do <a href="https://www.youtube.com/c/KenzieAcademyBrasil">YouTube da Kenzie</a>.
 </p>
@@ -31,10 +31,10 @@ Objetivo principal do projeto está finalizado. Mas outras funcionalidades poder
 
 **Possíveis funcionalidades:**
  - [x] Interface Principal
- - [x] Seleção de forma de pagamento
- - [x] Responsividade
- - [ ] Omitir o valor de saldo
- - [ ] Abrir o chat do App
+ - [x] Seleção de pedidos
+ - [x] Atualização de valores no carrinho
+ - [ ] Responsividade
+ - [ ] Seção final
 
  ### Demonstração: 
 🎥📷
