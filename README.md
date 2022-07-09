@@ -13,6 +13,10 @@
  **🔗Projeto BK-Code:** Interface inspirada na plataforma do Burger King, onde o cliente pode escolher e realizar o pedido. Projeto desenvolvido e ministrado pelos instrutores da Kenzie Academy Brasil em parceria com o Burger King.
 
  ### Tecnologias Utilizadas:
+
+ ![GitHub top language](https://img.shields.io/github/languages/top/JessicaSaantos/BK-Code?style=plastic)
+ ![GitHub language count](https://img.shields.io/github/languages/count/JessicaSaantos/BK-Code?style=plastic)
+ 
 Marcação | Estilização | Programção
 ---|---|---
 Html | Css | JavaScript
