@@ -24,7 +24,7 @@ Html | Css | JavaScript
 
 ### Aprendizados:
 <p> 📚 Através desse projeto foi possível exercitar o uso da linguagem JavaScript para organizar as seções e exibir cada uma de forma dinâmica, conforme a interação do usuário, usando DOM e estilização do CSS de classes para exibir ou não as seções.</p> 
-<p> Também usando DOM foi possível construir a interface de vitrine dos pedidos de forma autorizada permitido o JavaScript construir cada template.</p>
+<p> Também usando DOM foi possível construir a interface de vitrine dos pedidos de forma automatizada permitido o JavaScript construir cada template, usando assim o JS para apresentar os filmes sem necessariamente ter o contéudo na marcação HTML, pois com o próprio JS foi possível fazer a listagem dos filmes com loop e a criação de elementos HTML. </p>
 <p>
     🔗 Esse desenvolvimento foi realizado em uma maratona de aulas da escola <a href="https://kenzie.com.br/" rel="nofollow">Kenzie Academy Brasil</a> e apresentado no canal do <a href="https://www.youtube.com/c/KenzieAcademyBrasil">YouTube da Kenzie</a>.
 </p>
