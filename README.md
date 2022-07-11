@@ -34,6 +34,18 @@ Html | Css | JavaScript
 
 #### Estrutura de arquivos
 
+
+* README.md
+* index.html
+* /assets
+    - /css
+        - reset.css
+        - style.css
+    - /img
+    - /js
+        - script.js
+        - produtos.js
+
 ### Status do Projeto: 
 *Em Andamento* 🛠️⚙️
 Objetivo principal do projeto está finalizado. Mas outras funcionalidades serão adicionadas ao BK-Code.
